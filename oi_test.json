@@ -1,0 +1,21 @@
+{
+    "telegram": {
+        "bot_token": "7987686280:AAGXzN1XV4cMi_tlJQZRJBQNUg1rj7w-HnQ",
+        "chat_id": 6533850425,
+        "thread_id": null
+      },
+    "exchanges": ["binance", "bybit"],
+    "oi_alerts": {
+        "change_threshold_percent": 25,
+        "change_threshold_percent_high": 30,
+        "change_threshold_percent_previous": 5,
+        "change_threshold_percent_previous_high": 10,
+        "price_change_threshold_percent": 1.0,
+        "batch_size": 10,
+        "min_oi_value_usd": 1000000,
+        "min_volume_24h_usd": 1000000
+    },
+    "timing": {
+        "interval_minutes": 5
+    }
+}
